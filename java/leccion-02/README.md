@@ -14,3 +14,4 @@ $ javac -d classes com/acme/*.java com/acme/greetings/*.java
 $ cd classes
 $ java com.acme.Main
 ```
+-d carpetaDeBins
