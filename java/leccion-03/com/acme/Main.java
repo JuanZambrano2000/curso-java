@@ -4,6 +4,7 @@ import com.acme.greetings.EnGreeting;
 import com.acme.greetings.EsGreeting;
 
 public class Main {
+    //si argumentos vacios, se agrega un argumento por defecto "es"
     public static void main(String[] args) {
         if (null == args || args.length == 0) {
             Main.run("es");

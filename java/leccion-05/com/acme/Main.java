@@ -5,6 +5,11 @@ import com.acme.greetings.EsGreeting;
 
 public class Main {
     public static void main(String[] args) {
+        /* lo mismo de lo de abajo
+        Language[] languages = new Language[2];
+        languages[0] = Language.ES;
+        languages[1] = Language.EN;
+         */
         Language[] languages = new Language[] {
             Language.ES, Language.EN
         };

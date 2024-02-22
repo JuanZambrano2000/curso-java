@@ -5,6 +5,9 @@ import com.acme.greetings.EsGreeting;
 import java.util.Locale;
 
 public class Main {
+    //constante, se declara en mayusculas
+    //static no necesitas crear un nuevo objecto para acceder a la variable
+    private static final Double AGE = 0.2;
     public static void main(String[] args) {
         if (null == args || args.length == 0) {
             Main.run(Language.of("es"));
