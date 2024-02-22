@@ -5,7 +5,12 @@
   <groupId>com.acme</groupId>
   <artifactId>leccion-09</artifactId>
   <version>1.0.0-SNAPSHOT</version>
-   
+   <!-- mvn verify: ejecutar las pruebas de integración y verificar que se cumplan los criterios de calidad del proyecto. -->
+   <!-- java -jar target/leccion-09-->
+   <!-- mvn org.codehaus.mojo:exec-maven-plugins:3.0.0:java-->
+   <!-- mvn exec:java -Dexec.mainClass="com.acme.Main" -->
+   <!-- mvn exec:java -->
+   <!-- mvn compile exec:java -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>11</java.version>

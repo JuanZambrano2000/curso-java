@@ -4,6 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.acme</groupId>
   <artifactId>leccion-08</artifactId>
+  <!--  semantic versionning-->
+  <!--  1 - new version .2 - new characteristics .0 - new bug fixes -SNAPSHOT -->
+  <!--  test driven development, a test that will fail, a test that will succed -->
   <version>1.0.0-SNAPSHOT</version>
    
   <properties>
@@ -24,3 +27,9 @@
     </plugins>
   </build>
 </project>
+<!-- Project Object Model POM.xml -->
+<!-- stc/main/java <- convencion de maven -->
+<!-- mvn compile  -->
+<!-- mvn clean - destruye el directorio de trabajo -->
+<!-- mvn package - compila y empaqueta el proyecto -->
+<!-- mvn help:effective-pom -Dverbose -->

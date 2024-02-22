@@ -10,5 +10,6 @@ public class EnGreetingTest {
     @Test
     void getGreetingReturnsExpectedValue() {
         assertEquals("hello", greeting.getGreeting());
+        //assertTrue(equalsTo("hello", greeting.getGreeting()));
     }
 }
